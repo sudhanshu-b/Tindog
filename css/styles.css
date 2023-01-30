@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.Intro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.container-fluid{
+    padding: 2% 15% 7%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem ;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 27%;
+    left: 57%;
+    position:absolute;
+    
+}
+.features-1{
+    font-size: 1.5rem;
+}
+#features{
+ padding: 7% 15%;
+ background-color: #fff;
+ position: relative;
+ 
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family:Montserrat;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* Testimonials  */
+#testimonials{
+   
+    text-align: center;
+    background-color: #f36f5e;
+    color: #fff;
+}
+h2{
+    font-family: Montserrat;
+    font-weight:600;
+    font-size: 3rem;
+    line-height: 1.8;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    text-align: center;
+    background-color: #f36f5e;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+    position: static;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 5% 10%;
+}
+#cta h3{
+    font-size: 7vh;
+    padding-bottom: 40px;
+}
+#footer{
+    padding: 5% 10%;
+    text-align: center;
+}
+.icon-foot{
+    margin: 20px 10px;
+}
